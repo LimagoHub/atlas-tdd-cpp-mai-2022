@@ -51,12 +51,12 @@ TEST_F(euro_to_dollar_presenter_impl_test, update_rechnen_action_state_nan_in_eu
     EXPECT_CALL(euro_to_dollar_viewMock, set_rechnen_enabled(false));
 
 
-    object_under_test.rechnen();
+    object_under_test.update_rechnen_action_state();
 }
 
 TEST_F(euro_to_dollar_presenter_impl_test, update_rechnen_action_state_valid_euro_field_rechnen_enabled) {
     EXPECT_CALL(euro_to_dollar_viewMock, get_euro()).WillOnce(testing::Return("10"));
     EXPECT_CALL(euro_to_dollar_viewMock, set_rechnen_enabled(true));
 
-    object_under_test.rechnen();
+    object_under_test.update_rechnen_action_state();
 }

@@ -22,19 +22,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/QTEuro2DollarRechner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Mockeuro_to_dollar_calculator.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Mockeuro_to_dollar_view.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QtEtest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.ui" beforeDir="false" afterPath="$PROJECT_DIR$/mainwindow.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter_impl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="Letzter Stand">
+      <change beforePath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +38,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="29vxa28HkOJc5OUyxwjJAMuPs8q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -180,8 +172,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654007422250</updated>
-      <workItem from="1654007424352" duration="3353000" />
+      <workItem from="1654007424352" duration="3500000" />
     </task>
+    <task id="LOCAL-00001" summary="Letzter Stand">
+      <created>1654017415364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017415364</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Letzter Stand">
+      <created>1654017444562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017444562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,5 +204,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Letzter Stand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Letzter Stand" />
   </component>
 </project>
