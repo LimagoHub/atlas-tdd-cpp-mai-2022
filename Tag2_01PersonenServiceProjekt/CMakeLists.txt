@@ -9,7 +9,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 
 
-add_executable(PersonenService source/main.cpp)
+add_executable(PersonenService source/main.cpp source/blacklist_service.h)
 
 
 # Add tests
