@@ -19,8 +19,11 @@ public:
 	/// alles ok -> person passed to repo
 	/// </summary>
 	/// <param name="person"></param>
-	void speichern(person &person)
+	void speichern(person person_)
 	{
-		throw personen_service_execption("Vorname zu kurz!");
+        if(person_.get_vorname().length() < 3)
+            throw personen_service_execption{"Vorname zu kurz!"};
+
+        throw personen_service_execption{"Nachname zu kurz!"};
 	}
 };
