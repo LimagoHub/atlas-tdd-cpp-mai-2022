@@ -12,7 +12,7 @@ set_target_properties(gmock_main gtest_main PROPERTIES EXCLUDE_FROM_ALL 1 EXCLUD
 set(SOURCE
 	main.cpp
 
-		Mockexchange_rate_service.h euro_to_dollar_calculator_impl_test.cpp euro_to_dollar_calculator_impl_test.h)
+		Mockexchange_rate_service.h euro_to_dollar_calculator_impl_test.cpp euro_to_dollar_calculator_impl_test.h Mockeuro_to_dollar_view.h Mockeuro_to_dollar_calculator.h euro_to_dollar_presenter_impl_test.cpp euro_to_dollar_presenter_impl_test.h)
 
 
 

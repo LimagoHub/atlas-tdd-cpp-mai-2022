@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/QtEtest.iml" filepath="$PROJECT_DIR$/.idea/QtEtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/QTEuro2DollarRechner.iml" filepath="$PROJECT_DIR$/.idea/QTEuro2DollarRechner.iml" />
     </modules>
   </component>
 </project>
