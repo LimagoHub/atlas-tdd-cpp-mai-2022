@@ -7,6 +7,7 @@ class euro_to_dollar_view
 {
 public:
 	virtual ~euro_to_dollar_view() = default;
+
 	virtual void set_presenter(euro_to_dollar_presenter* presenter) = 0;
 
 

@@ -25,11 +25,21 @@ public:
 
 	void populate_items() const override
 	{
-
+        // setzt Euro auf "0"
+        // setzt Dollar auf "0"
+        // rechnen enablen
 	}
 
+    /*
+     *
+    */
 	void rechnen() const override
 	{
+        //Euro string aus view lesen
+        // eurowert wandeln -> double (Im fehlerfall -> Fehlermeldung im Dollarfeld)
+        // servicecall -> bei Fehler -> Fehlermeldung im Dollarfeld
+        // double dollar -> string
+        // ergebnis in das Dollarfeld schreiben
 
 	}
 
@@ -40,7 +50,7 @@ public:
 
 	void update_rechnen_action_state() const override
 	{
-
+        // erst besprechen
 	}
 };
 

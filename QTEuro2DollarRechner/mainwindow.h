@@ -13,6 +13,7 @@ class MainWindow : public QMainWindow, public euro_to_dollar_view
 {
     Q_OBJECT
 
+
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
