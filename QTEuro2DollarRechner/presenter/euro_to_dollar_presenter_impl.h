@@ -4,6 +4,7 @@
 #include "../view/euro_to_dollar_view.h"
 
 
+
 class euro_to_dollar_presenter_impl :
 	public euro_to_dollar_presenter
 {
@@ -15,6 +16,7 @@ public:
 
 	void set_model(euro_to_dollar_calculator* model) override
 	{
+
 		model_ = model;
 	}
 
@@ -50,7 +52,6 @@ public:
         catch (...) {
             view_->set_dollar("Fehler im Service");
         }
-
 
 	}
 

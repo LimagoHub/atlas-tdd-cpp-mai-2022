@@ -80,12 +80,28 @@ TEST_F(personen_service_impl_test, speichern_happy_day_person_is_passed_to_repo)
         InSequence s;
         // Arrange
         person validPerson{ "","John","Doe" };
+        person expectedPerson{ "1","John","Doe" };
 
         EXPECT_CALL(blacklist_serviceMock, is_blacklisted(_)).WillOnce(Return(false));
-        EXPECT_CALL(repoMock, saveOrUpdate(validPerson));
+        EXPECT_CALL(repoMock, saveOrUpdate(expectedPerson));
         // Act
 
         // Assertion
         EXPECT_NO_THROW(object_under_test.speichern(validPerson));
+        EXPECT_EQ("1", validPerson.get_id());
+}
+TEST_F(personen_service_impl_test, speichern_overloaded_happy_day_person_is_passed_to_repo)
+{
+    person result;
 
+
+    //EXPECT_CALL(blacklist_serviceMock, is_blacklisted(_)).WillOnce(Return(false));
+    EXPECT_CALL(blacklist_serviceMock, is_blacklisted(_)).WillOnce([this](const person &p){
+        return false;});
+    EXPECT_CALL(repoMock, saveOrUpdate(_)).WillOnce(DoAll(SaveArg<0>(&result)));
+    // Act
+
+    // Assertion
+    EXPECT_NO_THROW(object_under_test.speichern("Ulli","Schmitt"));
+    EXPECT_EQ("1", result.get_id());
 }

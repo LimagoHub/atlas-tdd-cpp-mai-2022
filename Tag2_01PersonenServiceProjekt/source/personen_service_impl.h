@@ -20,7 +20,7 @@ public:
 	/// alles ok -> person passed to repo
 	/// </summary>
 	/// <param name="person"></param>
-	void speichern(person person_)
+	void speichern(person &person_)
 	{
         try {
             speichern_impl(person_);
@@ -33,8 +33,14 @@ public:
 
 	}
 
-    void speichern_impl(const person &person_) const {
+    void speichern(std::string vorname, std::string nachname) {
+        person p{"",vorname,nachname};
+        speichern(p);
+    }
+
+    void speichern_impl(person &person_) const {
         pruefe_person(person_);
+        person_.set_id("1");
         personen_repository_.saveOrUpdate(person_);
     }
 

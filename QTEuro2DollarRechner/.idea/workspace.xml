@@ -3,17 +3,17 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Euro2Dollar" targetName="gtest" />
-      <config projectName="Euro2Dollar" targetName="Euro2DollarTest" />
-      <config projectName="Euro2Dollar" targetName="gtest_main" />
       <config projectName="Euro2Dollar" targetName="gmock" />
-      <config projectName="Euro2Dollar" targetName="Euro2Dollar" />
       <config projectName="Euro2Dollar" targetName="gtest_autogen" />
-      <config projectName="Euro2Dollar" targetName="gmock_autogen" />
-      <config projectName="Euro2Dollar" targetName="gtest_main_autogen" />
       <config projectName="Euro2Dollar" targetName="Euro2DollarTest_autogen" />
-      <config projectName="Euro2Dollar" targetName="gmock_main" />
       <config projectName="Euro2Dollar" targetName="gmock_main_autogen" />
       <config projectName="Euro2Dollar" targetName="Euro2Dollar_autogen" />
+      <config projectName="Euro2Dollar" targetName="Euro2DollarTest" />
+      <config projectName="Euro2Dollar" targetName="gtest_main" />
+      <config projectName="Euro2Dollar" targetName="Euro2Dollar" />
+      <config projectName="Euro2Dollar" targetName="gmock_autogen" />
+      <config projectName="Euro2Dollar" targetName="gtest_main_autogen" />
+      <config projectName="Euro2Dollar" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -22,8 +22,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="Letzter Stand">
-      <change beforePath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/euro_to_dollar_presenter_impl_test.cpp" afterDir="false" />
+    <list default="true" id="6b3bbc18-b5fb-411b-bc8f-a8d64548d556" name="Changes" comment="Letzter Stand (Bugfixed)">
+      <change afterPath="$PROJECT_DIR$/../FakeDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FakeDemo/.idea/FakeDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FakeDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FakeDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FakeDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/presenter/euro_to_dollar_presenter_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag2_01PersonenServiceProjekt/source/personen_service_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_01PersonenServiceProjekt/source/personen_service_impl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tag2_01PersonenServiceProjekt/tests/personen_service_impl_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tag2_01PersonenServiceProjekt/tests/personen_service_impl_test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +64,12 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FakeDemo/CMakeLists.txt" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager" selected="Google Test.Euro2DollarTest">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Euro2DollarTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Google Test.euro_to_dollar_presenter_impl_test.rechnen_valid_euro_field_is_passed_to_service">
+    <configuration name="euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2DollarTest" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="Euro2Dollar" RUN_TARGET_NAME="Euro2DollarTest" TEST_CLASS="euro_to_dollar_presenter_impl_test" TEST_METHOD="rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -92,6 +92,11 @@
       </method>
     </configuration>
     <configuration name="Euro2Dollar_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Euro2Dollar" TARGET_NAME="Euro2Dollar_autogen" CONFIG_NAME="Debug-MinGW">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -136,11 +141,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.Euro2Dollar" />
       <item itemvalue="CMake Application.Euro2Dollar_autogen" />
@@ -153,14 +153,13 @@
       <item itemvalue="CMake Application.gtest_autogen" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="CMake Application.gtest_main_autogen" />
-      <item itemvalue="Google Test.Euro2DollarTest" />
       <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_valid_euro_field_is_passed_to_service" />
       <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" />
         <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_valid_euro_field_is_passed_to_service" />
+        <item itemvalue="Google Test.euro_to_dollar_presenter_impl_test.rechnen_unexpected_exception_in_underlying_service_error_in_dollar_field" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654007422250</updated>
-      <workItem from="1654007424352" duration="3500000" />
+      <workItem from="1654007424352" duration="3641000" />
+      <workItem from="1654018257241" duration="2081000" />
+      <workItem from="1654066429662" duration="1596000" />
+      <workItem from="1654085635647" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="Letzter Stand">
       <created>1654017415364</created>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654017444562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Letzter Stand (Bugfixed)">
+      <created>1654017560821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654017560821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,10 +213,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Letzter Stand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Letzter Stand" />
+    <MESSAGE value="Letzter Stand (Bugfixed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Letzter Stand (Bugfixed)" />
   </component>
 </project>

@@ -8,6 +8,10 @@ set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 
+if(MSVC)
+    string(APPEND CMAKE_CXX_FLAGS " /Zc:__cplusplus")
+endif()
+
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
